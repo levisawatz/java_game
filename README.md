@@ -1,6 +1,6 @@
 # java_games
 
-###Endless_Runner.java
+### Endless_Runner.java
 An endless 2d runner inspired by the chrome dinasour game
 
 ![Screenshot1](https://user-images.githubusercontent.com/85774651/215295221-f2eda8b9-0a70-4426-8078-b93c8551bd55.png)
