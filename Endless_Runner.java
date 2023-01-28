@@ -1,5 +1,3 @@
-
-
 import java.awt.Color;
 import java.awt.*; 
 // ^---Contains all of the classes for creating user interfaces and for painting graphics and images.
@@ -15,14 +13,14 @@ import java.awt.event.KeyListener;
  * @author (your name)
  * @version (a version number or a date)
  */
-public class G4me extends JPanel implements ActionListener{
+public class Endless_Runner extends JPanel implements ActionListener{
     Enemy e0= new Enemy();
     Enemy e1= new Enemy();
     Enemy e2= new Enemy();
     Enemy e3= new Enemy();
     Blob b1= new Blob();
     Control C=new Control();
-public G4me() {
+public Endless_Runner() {
         KeyListener listener = new MyKeyListener();
         addKeyListener(listener);
         setFocusable(true);
@@ -121,8 +119,8 @@ public G4me() {
         // ^---This creates a frame to hold the graphics
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         // ^---This exits the program when you close the window
-        G4me d = new G4me();
-        G4me graphics = new G4me();
+        Endless_Runner d = new Endless_Runner();
+        Endless_Runner graphics = new Endless_Runner();
         // ^---This creates an object so you can access methods outside of the main method
         f.add(graphics);
         f.setSize(1000,700);
